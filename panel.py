@@ -2,7 +2,6 @@ import json
 import threading
 from tkinter import *
 import discord
-from discord.ext import commands
 import asyncio
 
 # Load the token from a JSON file
