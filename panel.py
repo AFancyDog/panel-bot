@@ -12,7 +12,7 @@ TOKEN = var["token"]
 # Set up intents
 intents = discord.Intents.default()
 intents.messages = True  # Ensure the bot can send messages
-bot = commands.Bot(command_prefix='PanelRequest>', intents=intents)
+bot = commands.Bot(command_prefix='>', intents=intents)
 
 # Flag to check if the bot is ready
 bot_ready = False
